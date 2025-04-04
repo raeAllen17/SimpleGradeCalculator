@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(100,34,164,1) 82%);
+}
+
+.container {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.boxOne {
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 30px;
+    box-shadow: 5px 10px 30px 0px rgba(0, 0, 0, 0.5);
+    height: auto;
+    width: 450px;
+}
+
+.boxOne h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.boxOneCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;   
+}
+
+.cred {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.grade {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.butt {
+    margin-top: 15px;   
+    width: 292px;  
+    margin-left: 18%;
+}
+
+.butt button {
+    font-family: Poppins, sans-serif;
+    border: none;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+label {
+    margin-bottom: 5px;
+    padding-top: 15px;
+    font-size: 2vh;
+}
+
+input[type="text"] {
+    font-family: Poppins, sans-serif;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 200px;
+
+}
+
+.boxTwo {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.boxTwoCon {
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 30px;
+    box-shadow: 5px 10px 30px 0px rgba(0, 0, 0, 0.5);
+    height: auto;
+    width: 450px;
+}
+
+.content {
+    padding-left: 50px;
+}
